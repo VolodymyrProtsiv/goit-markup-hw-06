@@ -459,33 +459,40 @@
                     <!-- Form -->
                     <p class="modal-tittle">Оставьте свои данные, мы вам перезвоним</p>
                     <form action="#" class="modal-form">
+                        <ul class="modal-form-list list">
+                            <li class="modal-form-list-title">
+                                <label for="use_name" class="modal-lable">Имя</label>
+                                <input type="name" name="name" id="use_name" placeholder="Ivan Ivanov" 
+                                class="modal-input" required />
+                            </li>
                             
-                        <label for="use_name" class="modal-lable">Имя</label>
-                        <input type="name" name="name" id="use_name" 
-                        placeholder="Ivan Ivanov" class="modal-input"/>
-                               
-                               
-                        <label for="use_tel" class="modal-lable" >Телефон</label>
-                        <input type="tel" name="tel" id="use_tel" 
-                        placeholder="+380**-000-00-00" class="modal-input"/>
-                               
-                                
-                        <label for="use_mail" class="modal-lable" >Почта</label>
-                        <input type="mail" name="mail" id="use_mail" 
-                        placeholder="Ivan@Ivanov.com" class="modal-input"/>
-                               
-                                
-                        <label for="use_feedback">Комментарий</label>
-                        <textarea name="feedback" id="feedback" cols="30" rows="10" 
-                        placeholder="Введите текст"></textarea>
+                            
+                            <li class="modal-form-list-title">
+                                <label for="use_tel" class="modal-lable">Телефон</label>
+                                <input type="tel" name="tel" id="use_tel" placeholder="+380**-000-00-00" 
+                                class="modal-input" required />
+                            </li>
+                            
+                            
+                            <li class="modal-form-list-title">
+                                <label for="use_mail" class="modal-lable">Почта</label>
+                                <input type="email" name="mail" id="use_mail" placeholder="Ivan@Ivanov.com" class="modal-input" required />
+                            </li>
+                        </ul>
+                            <div class="modal-form-list-title">
+                                <label for="use_feedback" class="modal-lable">Комментарий</label>
+                                <textarea name="feedback" id="feedback" cols="30" rows="10" 
+                                placeholder="Введите текст"  ></textarea>
+                            </div>
 
+                        
                         <label>
                             <input type="checkbox">
                             Соглашаюсь с рассылкой и принимаю
                             <a href="">Условия договора</a>
                         </label>
                         <br>
-                        <button type="submit">Отправить </button>
+                        <button type="submit" class=" btn-modal">Отправить </button>
                     </form>
                                
                           
@@ -499,3 +506,7 @@
            <!-- <script src="./js/modal.js"></script> -->
         </body>
     </html>
+
+
+
+   <li class="gog"></li>
