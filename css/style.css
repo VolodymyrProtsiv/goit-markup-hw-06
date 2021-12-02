@@ -27,6 +27,7 @@
   --footer-pr-icon: rgba(255, 255, 255, 0.1);
   --doptext-col-do: rgba(47, 48, 58, 0.8);
   --bg-modal-col: rgba(0, 0, 0, 0.2);
+  --text-pr-form: #212121;
 }
 h1,
 h2,
@@ -817,8 +818,31 @@ body {
   fill: black;
 }
 
-.is-hidden {
+/* .is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+} */
+
+/* Form */
+.form-tittle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--text-pr-form);
+}
+/* .form-placehold {
+  display: flex;
+  flex-direction: column;
+} */
+
+.modal-input {
+  width: 100%;
+}
+.modal-lable {
+  display: flex;
+  margin-bottom: 4px;
 }
