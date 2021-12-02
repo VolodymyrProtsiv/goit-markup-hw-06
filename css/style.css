@@ -827,11 +827,22 @@ body {
 } */
 
 /* Form */
-.modal-form {
-}
+
 .modal-tittle {
   margin-bottom: 12px;
+
+  ont-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--text-pr-form-col);
 }
+
+.modal-form {
+}
+
 .modal-form-list {
   display: flex;
   flex-direction: column;
