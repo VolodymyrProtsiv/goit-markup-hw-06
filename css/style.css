@@ -883,6 +883,13 @@ body {
   outline: 1px solid #188ce8;
 }
 
+.modal-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+}
+
 .btn-modal {
   padding: 10px 55px;
 }
