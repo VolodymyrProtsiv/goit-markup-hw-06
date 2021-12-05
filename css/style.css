@@ -876,6 +876,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.01em;
 
+  cursor: pointer;
+
   color: var(--second-col-txt);
 }
 .modal-input:focus,
