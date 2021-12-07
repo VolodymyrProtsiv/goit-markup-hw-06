@@ -475,7 +475,7 @@
                     </button>
                     <!-- Form -->
                     <p class="modal-tittle">Оставьте свои данные, мы вам перезвоним</p>
-                    <form action="#" class="modal-form">
+                    <form name="signup_form" autocomplete="on" novalidate class="modal-form" >
                         <ul class="modal-form-list list">
                             <li class="modal-form-list-title">
                                 <input type="name" name="name" id="use_name"  
@@ -509,12 +509,12 @@
                             </div>
 
                         
-                        <label>
-                            <input type="checkbox">
+                        <label class="modal-checkbox">
+                            <input type="checkbox" class="modal-checkbox-title">
                             Соглашаюсь с рассылкой и принимаю
                             <a href="">Условия договора</a>
                         </label>
-                        <br>
+                        
                         <button type="submit" class="btn btn-modal">Отправить </button>
                     </form>
                 </div>
