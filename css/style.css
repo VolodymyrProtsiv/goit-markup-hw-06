@@ -649,6 +649,7 @@ body {
 .footer-form {
   display: flex;
   margin-left: auto;
+  fill:#afb1b8
 }
 .footer-input {
   width: 358px;
@@ -672,7 +673,11 @@ body {
 }
 
 .footer-form-btn {
-  padding: 10px 22px;
+padding: 10px 22px;
+}
+.icon-pen{
+  color: #212121;
+  fill: #5a4c4c;
 }
 /* .footer-form-btn::after{
   content:'';
