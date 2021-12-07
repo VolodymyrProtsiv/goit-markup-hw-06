@@ -675,7 +675,26 @@ body {
   display: inline-flex;
   align-items: center;
   padding: 10px 22px;
+   font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  background-color: var(--accent-col);
+  color: var(--bg-pr-col);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px var(--sw-btn);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+  background-color: var(--hover-btn-col);
+  box-shadow: 0px 4px 4px var(--sw-btn);
+}
+
 .icon-send {
   fill: currentColor;
 }
@@ -1023,10 +1042,46 @@ body {
   color: var(--second-col-txt);
 }
 .modal-checkbox-title {
-  margin-right: 9px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
+.checkbox-icon {
+  width: 16px;
+  height: 15px;
+  margin-right: 9px;
+
+  cursor: pointer;
+
+  border-radius: 2px;
+
+  border: 2px solid var(--pr-col-txt);
+}
+
+.modal-checkbox-title:checked + .checkbox-icon {
+  background-color: var(--hover-btn-col);
+  border-color: var(--hover-btn-col);
+  background-image: url(../img/chek-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+}
+
+.checkbox-icon-chek {
+}
+
 .modal-checkbox-title-par {
   margin-right: 5px;
+
+  cursor: pointer;
 }
 
 .modal-checkbox-title-link {
@@ -1044,4 +1099,23 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 10px 55px;
+}
+ font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  background-color: var(--accent-col);
+  color: var(--bg-pr-col);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px var(--sw-btn);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--hover-btn-col);
+  box-shadow: 0px 4px 4px var(--sw-btn);
 }
