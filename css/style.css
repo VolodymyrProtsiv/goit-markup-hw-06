@@ -996,7 +996,9 @@ body {
 .modal-checkbox{
   display: flex;
 }
-.modal-checkbox-title
+.modal-checkbox-title{
+  
+}
 
 .btn-modal {
   padding: 10px 55px;
