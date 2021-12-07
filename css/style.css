@@ -995,11 +995,42 @@ body {
 
 .modal-checkbox{
   display: flex;
+  margin-bottom: 30px;
+  
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  
+  
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+  
 }
 .modal-checkbox-title{
-  
+  margin-right: 9px;
+
+}
+.modal-checkbox-title-par{
+  margin-right: 5px;
+}
+
+
+.modal-checkbox-title-link{
+  color: var(--accent-col);
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+}
+.modal-checkbox-title-link:focus,
+.modal-checkbox-title-link:hover{
+  color: var(--hover-btn-col);
 }
 
 .btn-modal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 55px;
 }
