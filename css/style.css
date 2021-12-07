@@ -648,26 +648,49 @@ body {
 }
 .footer-form {
   display: flex;
+  margin-left: auto;
 }
 .footer-input {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
+  margin-right: 12px;
   border-radius: 4px;
-  color: #2196f3;
-
-  background-color: transparent;
-
   border: 1px solid var(--br-solid-col);
+  outline: none;
+
+  color: var(--br-solid-col);
+  background-color: transparent;
+  cursor: pointer;
+
+  
+}
+
+.footer-input:focus,
+.footer-input:hover{
+  border: 1px solid var(--hover-btn-col);
 }
 
 .footer-form-btn {
-  padding: 10px 62px 10px 22px;
+  padding: 10px 22px;
 }
+/* .footer-form-btn::after{
+  content:'';
+  display: inline-flex;
+  text-align: center;
+  width: 24px;
+  height: 24px;
 
-.icon-send {
-  fill: currentColor;
-}
+  transform-origin: center;
+  
+  background-image: url(../img/icon\ send\ \(1\).svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+} */
+
+
 
 /* PORTFOLIO  */
 .filtr {
