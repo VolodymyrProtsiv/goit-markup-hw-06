@@ -581,7 +581,10 @@ body {
 .soc-conteiner {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+}
+.social-network {
+  margin-right: auto;
 }
 .footer-logo-conteiner {
   margin-right: 70px;
