@@ -918,18 +918,19 @@ body {
   color: var(--text-pr-form-col);
 }
 
-.modal-form-list {
+/* .modal-form-list {
   display: flex;
   flex-direction: column;
-}
+} */
 .modal-form-list-title {
   position: relative;
+  /* display: flex; */
 
   margin-bottom: 32px;
 }
 .modal-form-textarea {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 15px;z
 }
 .modal-textarea {
   width: 100%;
