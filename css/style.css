@@ -871,8 +871,8 @@ body {
 
 .button-close {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 8px;
+  right: 8px;
 
   display: flex;
   justify-content: center;
@@ -907,11 +907,11 @@ body {
 /* Form */
 
 .modal-tittle {
-  margin-bottom: 31px;
+  margin-bottom: 20px;
 
   font-weight: bold;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -926,11 +926,11 @@ body {
   position: relative;
   /* display: flex; */
 
-  margin-bottom: 32px;
+  margin-bottom: 10px;
 }
 .modal-form-textarea {
   position: relative;
-  margin-bottom: 15px;z
+  margin-bottom: 5px;
 }
 .modal-textarea {
   width: 100%;
@@ -996,12 +996,12 @@ body {
 }
 
 .modal-lable {
-  position: absolute;
+  /* position: absolute; */
   top: -50%;
   left: 0;
 
   display: flex;
-  /* margin-bottom: 4px; */
+  margin-bottom: 4px;
 
   font-weight: normal;
   font-size: 12px;
@@ -1017,7 +1017,7 @@ body {
   position: absolute;
   top: 50%;
   left: 12px;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
 
   fill: currentColor;
 
@@ -1032,7 +1032,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 
   font-style: normal;
   font-weight: normal;
