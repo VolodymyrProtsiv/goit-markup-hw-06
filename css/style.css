@@ -1067,6 +1067,12 @@ body {
   border-radius: 2px;
 
   border: 2px solid var(--pr-col-txt);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-icon:focus,
+.checkbox-icon:hover {
+  border: 2px solid var(--accent-col);
 }
 
 .modal-checkbox-title:checked + .checkbox-icon {
