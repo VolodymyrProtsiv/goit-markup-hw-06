@@ -8,9 +8,9 @@
     колір акценту------------------ #2196F3
     колір фону білий--------------- #FFFFFF
     колір фону темний-------------- #2F303A
-    колір фону св-сірий------------ #F5F4FA */
-:root {
-  /* text-colores */
+    /* колір фону св-сірий------------ #F5F4FA */
+/* :root {
+ 
   --pr-col-txt: #212121;
   --bg-second-col: #2f303a;
   --second-col-txt: #757575;
@@ -57,9 +57,9 @@ body {
   width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -74,16 +74,16 @@ body {
 
 .list {
   list-style: none;
-}
+} */ */
 
-.link {
-  /* display: flex; */
+/* .link {
+ 
   text-decoration: none;
   cursor: pointer;
-}
+} */
 
 /* Logo*/
-.logo {
+/* .logo {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -92,20 +92,20 @@ body {
 
   color: var(--accent-col);
 }
-.logo-var {
-  /* display: block; */
+  .logo-var {
+  
 
-  font-family: Raleway;
+  /* font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2x;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em; 
 
   color: var(--pr-col-txt);
-}
+}  
 
 /* List */
-.list-item {
+/* .list-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -119,16 +119,16 @@ body {
 .list-item:hover,
 .list-item:focus {
   color: var(--accent-col);
-}
-.postbox::before {
+} */
+/* .postbox::before {
   content: "";
   width: 16px;
   height: 12px;
 
   background-image: url(../img/postbox.svg);
-}
+} */
 /* Button */
-.btn {
+/* .btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -147,9 +147,9 @@ body {
 .btn:focus {
   background-color: var(--hover-btn-col);
   box-shadow: 0px 4px 4px var(--sw-btn);
-}
+} */
 /* Active */
-.active {
+/* .active {
   color: var(--accent-col);
 }
 .active::after {
@@ -158,37 +158,39 @@ body {
   bottom: -1px;
 
   content: "";
-  /* display: inline-block; */
+   
   width: 100%;
   height: 4px;
   border-radius: 4px;
 
   background-color: var(--accent-col);
-}
+ }  */
 
 /* Header */
-.header {
+/* .header {
   position: relative;
   background-color: var(--bg-pr-col);
   border-bottom: 1px solid var(--hed-sol-col);
-}
+} */
 
-.header-conteiner {
+/* .header-conteiner {
   display: flex;
-}
+} */
 
-.nav {
+/* .nav {
   display: flex;
   align-items: center;
-}
+} */
 
-.nav-logo {
+/* .nav-logo {
   display: block;
   padding: 24px 0px;
   margin-right: 93px;
-}
 
-.nav-list {
+  color: var(--pr-col-txt);
+} */
+
+/* .nav-list {
   display: flex;
 }
 
@@ -196,15 +198,15 @@ body {
   margin-right: 50px;
 }
 .nav-list-item {
-  position: relative;
+  position: relative; */
 }
 
-.n-link {
+/* .n-link {
   display: block;
   padding: 35px 0px;
-}
+} */
 
-.contact-list {
+/* .contact-list {
   display: flex;
   margin-left: auto;
 }
@@ -236,7 +238,7 @@ body {
 .icon-mobtel:hover,
 .icon-mobtel:focus {
   color: var(--hover-btn-col);
-}
+} */
 
 .hero-sect {
   height: 600px;
