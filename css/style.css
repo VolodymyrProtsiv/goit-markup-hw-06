@@ -8,10 +8,10 @@
     колір акценту------------------ #2196F3
     колір фону білий--------------- #FFFFFF
     колір фону темний-------------- #2F303A
-    /* колір фону св-сірий------------ #F5F4FA */
-/* :root {
- 
-  --pr-col-txt: #212121;
+    колір фону св-сірий------------ #F5F4FA */
+/*:root {
+  text-colores 
+   --pr-col-txt: #212121;
   --bg-second-col: #2f303a;
   --second-col-txt: #757575;
   --bg-pr-col: #ffffff;
@@ -70,17 +70,17 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+} */
+
+/* .list {
+  list-style: none;
 }
 
-.list {
-  list-style: none;
-} */ */
-
-/* .link {
- 
-  text-decoration: none;
-  cursor: pointer;
-} */
+.link {
+  /* display: flex; */
+  /* text-decoration: none;
+  cursor: pointer; */
+}
 
 /* Logo*/
 /* .logo {
@@ -92,17 +92,17 @@ body {
 
   color: var(--accent-col);
 }
-  .logo-var {
+  .logo-var { */
   
 
   /* font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2x;
-  letter-spacing: 0.03em; 
+  letter-spacing: 0.03em; */
 
-  color: var(--pr-col-txt);
-}  
+  /* color: var(--pr-col-txt);
+}  */
 
 /* List */
 /* .list-item {
@@ -181,7 +181,7 @@ body {
   display: flex;
   align-items: center;
 } */
-
+/*  */
 /* .nav-logo {
   display: block;
   padding: 24px 0px;
@@ -190,7 +190,7 @@ body {
   color: var(--pr-col-txt);
 } */
 
-/* .nav-list {
+.nav-list {
   display: flex;
 }
 
@@ -198,7 +198,7 @@ body {
   margin-right: 50px;
 }
 .nav-list-item {
-  position: relative; */
+  position: relative;
 }
 
 /* .n-link {
