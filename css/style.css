@@ -190,7 +190,7 @@ body {
   color: var(--pr-col-txt);
 } */
 
-.nav-list {
+/* .nav-list {
   display: flex;
 }
 
@@ -199,7 +199,7 @@ body {
 }
 .nav-list-item {
   position: relative;
-}
+} */
 
 /* .n-link {
   display: block;
@@ -283,7 +283,7 @@ body {
 } */
 
 /* Skills-section */
-.skills {
+/* .skills {
   padding: 94px 0px;
 }
 
@@ -362,10 +362,10 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-col-txt);
-}
+} 
 
 /* Section What we do */
-.do-sct {
+/* .do-sct {
   padding-bottom: 94px;
 }
 .do-sct {
@@ -404,9 +404,9 @@ body {
   text-transform: uppercase;
 
   color: var(--bg-pr-col);
-}
+} */
 /* Section Team*/
-.team {
+/* .team {
   padding: 94px 0px;
 
   background-color: var(--bg-lightgrey-col);
@@ -497,7 +497,7 @@ body {
 .team-social-link:focus {
   background-color: var(--accent-col);
   color: var(--bg-pr-col);
-}
+} */
 
 /* uor-client */
 .our-clients {
