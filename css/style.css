@@ -240,7 +240,7 @@ body {
   color: var(--hover-btn-col);
 } */
 
-.hero-sect {
+/* .hero-sect {
   height: 600px;
   max-width: 1600px;
   padding: 200px 0px;
@@ -280,7 +280,7 @@ body {
 .btn-hero {
   padding: 10px 32px;
   min-width: 200px;
-}
+} */
 
 /* Skills-section */
 .skills {
