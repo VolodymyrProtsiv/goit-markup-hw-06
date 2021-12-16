@@ -309,7 +309,7 @@ body {
   background-size: contain;
 }
 /* Befor icond */
-.icon-locator::before {
+/* .icon-locator::before {
   content: "";
 
   background-image: url(../img/antenna.svg);
@@ -353,7 +353,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  /* background-color: var(--bg-lightgrey-coll); */
+  /* background-color: var(--bg-lightgrey-coll); 
   color: var(--pr-col-txt);
 }
 .skills-list-items-par {
@@ -362,7 +362,7 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-col-txt);
-} 
+}  */
 
 /* Section What we do */
 /* .do-sct {
@@ -500,7 +500,7 @@ body {
 } */
 
 /* uor-client */
-.our-clients {
+/* .our-clients {
   padding: 94px 0px;
 }
 .clients {
@@ -535,9 +535,9 @@ body {
 .clients-link:focus {
   color: var(--hover-btn-col);
   border: 1px solid var(--hover-btn-col);
-}
+} */
 
-/* Footer */
+/* Footer
 .footer {
   padding: 60px 0px;
   background-color: var(--bg-second-col);
@@ -579,12 +579,12 @@ body {
   color: var(--link-col);
 }
 
-/* Footer social network */
+ 
 .soc-conteiner {
   display: flex;
   align-items: baseline;
-  /* justify-content: space-between; */
-}
+  
+ }
 .social-network {
   margin-right: auto;
 }
@@ -634,10 +634,10 @@ body {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--accent-col);
-}
+} */
 
 /* Footer-form */
-.footer-form-conteiner {
+/* .footer-form-conteiner {
   display: flex;
   flex-direction: column;
 }
@@ -705,9 +705,9 @@ body {
 }
 .f-icon-conteiner {
   display: flex;
-  /* align-items: center; */
+ 
   margin-left: 10px;
-}
+} */
 
 /* PORTFOLIO  */
 .filtr {
@@ -839,8 +839,8 @@ body {
 }
 
 /* Backdrop-modal */
-
-.backdrop {
+/* 
+ .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -912,9 +912,9 @@ body {
   pointer-events: none;
 }
 
-/* Form */
 
-.modal-tittle {
+
+ .modal-tittle {
   margin-bottom: 20px;
 
   font-weight: bold;
@@ -926,13 +926,10 @@ body {
   color: var(--text-pr-form-col);
 }
 
-/* .modal-form-list {
-  display: flex;
-  flex-direction: column;
-} */
+
 .modal-form-list-title {
   position: relative;
-  /* display: flex; */
+  
 
   margin-bottom: 10px;
 }
@@ -1004,7 +1001,7 @@ body {
 }
 
 .modal-lable {
-  /* position: absolute; */
+  
   top: -50%;
   left: 0;
 
@@ -1025,7 +1022,7 @@ body {
   position: absolute;
   top: 50%;
   left: 12px;
-  /* transform: translateY(-50%); */
+ 
 
   fill: currentColor;
   cursor: pointer;
@@ -1113,4 +1110,4 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 10px 55px;
-}
+}   */
